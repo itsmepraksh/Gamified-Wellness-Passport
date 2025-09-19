@@ -98,8 +98,10 @@ npm run dev
 
 ## 👩‍💻 Team Bug Buster
 
-* Team Leader: **Kajal**
-* Members: \[Add team members here]
+* Team Leader: **prakash**
+* Members:
+          1.Kajal
+          2.Ansh
 
 ---
 
