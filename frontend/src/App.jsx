@@ -1,12 +1,13 @@
-import React from "react";
-import Home from "./pages/Home";
+ 
+import AppRouter from "./routes/AppRouter.jsx";
 
-function App() {
+const App = () => {
   return (
     <div>
-      <Home />
+      <AppRouter/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+ 

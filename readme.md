@@ -59,7 +59,7 @@ src/
 ### 1. Clone repo
 
 ```bash
-git clone https://github.com/your-username/genai-wellness-passport.git
+git clone https://github.com/itsmeprkash/genai-wellness-passport.git
 cd genai-wellness-passport
 ```
 
