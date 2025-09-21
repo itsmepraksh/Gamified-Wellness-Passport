@@ -1,4 +1,4 @@
-// src/pages/Home.jsx
+import videoSrc from "../assets/video/bg_video.mp4"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faComments,
@@ -6,14 +6,14 @@ import {
   faTrophy,
   faMusic,
 } from "@fortawesome/free-solid-svg-icons";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+
 
 const Home = () => {
   return (
-    <div > 
+    <div className="relative flex flex-col justify-center items-center"> 
+      <video src={videoSrc}  autoPlay muted loop className=" h-[90vh] w-full object-cover "></video>
       {/* Hero Section */}
-      <section className="text-center py-20 px-6">
+      <section className="absolute top-10 text-center py-20 px-6 ">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
           Your <span className="text-blue-600">Mind</span>,{" "}
           <span className="text-purple-600">Your Journey</span>,
@@ -23,13 +23,13 @@ const Home = () => {
           Beat exam stress, track your mood, and unlock your mental superpower
           🚀 Start your wellness journey today with AI + gamification!
         </p>
-        <button className="mt-8 px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl shadow-md hover:bg-blue-700 transition">
+        <button className="mt-8 px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl shadow-md hover:bg-blue-700 active:scale-[0.95] transition">
           Start Your Journey 🌟
         </button>
       </section>
 
       {/* Features Section */}
-      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-10 py-16">
+      <section className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-10 py-16">
         <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:scale-105 transition">
           <FontAwesomeIcon
             icon={faComments}
